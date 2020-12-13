@@ -40,7 +40,7 @@ def main():
 
     elif choice == '/':
         print(num1, "/", num2, "=", divide(num1, num2))
-     elif choice =="**":
+    elif choice =="**":
         print(num1,"^",num2,"=",power(num1,num2))
     else:
         print("Invalid input")
